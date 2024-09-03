@@ -3,9 +3,6 @@
         "target": "ES2017",
         "moduleResolution": "Node",
         "experimentalDecorators": true,
-        "jsx": "preserve",
-        "jsxFactory": "this.$render",
-        "jsxFragmentFactory": "this.$render",
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "forceConsistentCasingInFileNames": true,
@@ -13,11 +10,7 @@
         "declarationDir": "types",
         "declaration": true,
         "outDir": "lib",
-        "baseUrl": ".",
-        "paths": {
-            "@ijstech/components": ["node_modules/@ijstech/components"],
-            "@scom/scom-twitter-scraper/*": ["./src/*"]
-        }
+        "baseUrl": "."  
     },
     "include": [
       "src/**/*"
